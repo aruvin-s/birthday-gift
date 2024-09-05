@@ -3,7 +3,7 @@ import image from '../assets/images/special.png';
 
 const Special = () => {
   return (
-    <div className="bg-yellow-400 min-h-screen">
+    <div className="bg-whitemin-h-screen">
       <div>
         <img src={image}/>
       </div>
