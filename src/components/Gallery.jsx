@@ -2,16 +2,12 @@ import React from "react";
 import photo1 from '../assets/images/foto1.png';
 import photo2 from '../assets/images/foto2.png';
 import photo3 from '../assets/images/foto3.png';
+import text from '../assets/images/gallery.png';
 
 const Gallery = () => {
   return (
     <div className="bg-white min-h-screen border-t-4 mt-[92px] flex flex-col items-center">
-      <div className="text-[72px] font-bold text-black font-nacelle pt-[93px] text-center">
-        MY FAVOURITE ART GALLERY
-      </div>
-      <div className="text-[40px] text-yellow-400 font-signature text-center absolute top-[4175px]">
-        tentu saja isinya kamu
-      </div>
+      <img className="size-3/4 pt-[92px]" src={text}/>
       <div className="flex gap-4 pt-[41px]">
         <div>
             <img src={photo1} />

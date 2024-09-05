@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import bgImage from '../assets/images/bghome2.png';
 import ReactAudioPlayer from 'react-audio-player';
 import nina from ".././assets/audio/nina.m4a";
+import hbd from '../assets/images/hbdtext.png';
 
 const Homepage = () => {
   const [playAudio, setPlayAudio] = useState(false);
@@ -45,21 +46,10 @@ const Homepage = () => {
 
       <div className='px-[60px] pb-[32px]'>
         <div>
-          <div className="text-white font-signature text-[40px]">
+          <div className="text-white font-signature text-[40px] text-left">
             dari pacarmu yang <br /> jauh disana
           </div>
-          <div className="text-[72px] font-bold text-yellow-400 font-nacelle">
-            HAPPIEST BIRTHDAY,
-          </div>
-          <div className="text-white font-signature text-[40px] absolute top-[533px] left-[440px]">
-            selamat ulang tahun
-          </div>
-          <div className="text-[72px] font-bold text-yellow-400 font-nacelle">
-            ANDIEN RACHMA FADHILLAH
-          </div>
-          <div className="text-white font-signature text-[40px] absolute top-[640px] left-[930px]">
-            pacarku sayang!
-          </div>
+          <img className="size-5/6" src={hbd}/>
         </div>
       </div>
     </div>

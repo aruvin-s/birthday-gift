@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ImageAtas from '../assets/images/imgatas.png';
-import ImageBawah from '../assets/images/imgbawah.png';
+import ImageAtas from '../assets/images/imgatas2.png';
+import ImageBawah from '../assets/images/imgbawah2.png';
 import Modal from './Modal';
 
 const Wish = () => {
@@ -16,19 +16,9 @@ const Wish = () => {
 
   return (
     <div className="bg-white min-h-screen">
-      <div className="flex justify-between px-[60px] pt-[60px] pb-[92px]">
-        <div>
-          <div className="text-[72px] font-bold text-yellow-400 font-nacelle absolute top-[792px]">
-            SEMOGA SELALU <br /> BAHAGIA, YA?
-          </div>
-          <div className="font-signature text-[40px] pt-[180px]">
-            pacarku sayang!
-          </div>
-        </div>
         <div>
           <img src={ImageAtas} />
         </div>
-      </div>
 
       <div className="flex flex-col items-center px-[60px] pt-[48px] pb-[92px]">
         <button
@@ -39,17 +29,9 @@ const Wish = () => {
         </button>
       </div>
 
-      <div className="flex justify-between px-[60px] pt-[48px] pb-[92px]">
+      <div>
         <div>
           <img src={ImageBawah} />
-        </div>
-        <div>
-          <div className="text-[72px] text-right font-bold text-yellow-400 font-nacelle absolute top-[1600px] right-[55px]">
-            SEMOGA HAL - HAL <br /> BAIK SELALU MENYERTAIMU
-          </div>
-          <div className="font-signature text-[40px] pt-[300px]">
-            my one and only
-          </div>
         </div>
       </div>
 
