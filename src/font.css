@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'nacelle';
+    src: url('/src/assets/fonts/Nacelle-Heavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'nacelle-semi';
+    src: url('/src/assets/fonts/Nacelle-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'signature';
+    src: url('/src/assets/fonts/BlackSignature.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
